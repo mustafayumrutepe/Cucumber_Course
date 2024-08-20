@@ -30,7 +30,7 @@ public class _12_Soru {
 
     public static void writeToExcel(String path, String bilgi) {
 
-        File file = new File(path);
+        File file = new File(path); //bu javaya ait bir özellik
 
         if (!file.exists()) // dosya yok ise, ilk kez ve 1 kez çalışır
         {
